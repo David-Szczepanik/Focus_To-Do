@@ -1,0 +1,33 @@
+{
+  "name": "focus_to-do",
+  "version": "0.0.1",
+  "description": "Electron Focus To-Do App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.0"
+  },
+  "build": {
+    "appId": "your.app.id",
+    "productName": "Focus To-Do",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-store": "^8.1.0"
+  }
+}
