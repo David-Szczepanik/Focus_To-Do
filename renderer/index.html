@@ -8,9 +8,20 @@
 </head>
 
 <body>
+<!--<h1>Time Tracker</h1>-->
+<!--<h2 id="timer"></h2>-->
+<!--<button id="start">Start</button>-->
+<!--<button id="stop">Stop</button>-->
+<!--<button id="reset">Reset</button>-->
+
+<h1>Time Tracking App</h1>
+<div id="timer">00:00:00</div>
+<button type="button" class="btn btn-outline-primary" id="startStopBtn" onclick="toggleTimer()">Start</button>
+
 <h4>Todo List</h4>
 <ul class="list-group" id="todo_list"></ul>
 <script src="../renderer/index.js"></script>
+<script src="../renderer/timeTracker.js"></script>
 </body>
 
 </html>
